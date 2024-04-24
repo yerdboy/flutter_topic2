@@ -1,0 +1,23 @@
+{
+	"folders": [
+		{
+			"path": "../.dart_tool"
+		},
+		{
+			"path": "../.idea"
+		},
+		{
+			"path": "../android"
+		},
+		{
+			"path": "."
+		},
+		{
+			"path": "../test"
+		},
+		{
+			"path": "../build"
+		}
+	],
+	"settings": {}
+}
