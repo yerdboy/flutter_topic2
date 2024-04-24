@@ -1,6 +1,24 @@
 //Homework
-//task1
 
+//Answers for questions
+//About me
+// My name is Yerdaulet.I'm student of 2f2 group.I love watching anime.Actually in 90 % of situations in which i dont knw answers I cheat
+
+
+//Question1
+//Answer: переменные name4 и name5
+
+//Question2
+//Answer: 45
+
+//Question3
+//Answer: Ошибка
+
+//Question4
+//Answer:константы kate и alex.
+
+
+//task1
 // void main() {
 //   double x = 2;
 //   double y = 7 * x * x - 3 * x + 6;
@@ -11,15 +29,59 @@
 //   print('Значение функции t = $t для a = $a');
 // }
 
-//task3
+//task2
+// import 'dart:math';
+
 // void main() {
-//   double x = 3; // Assign any value to x
-//   double y = 2; // Assign any value to y
+//   double a = 5; // You can input any value for 'a'
+//   double result = sqrt(a * a + 10);
+//   print('The value of the function for a = $a is: $result');
+// }
+
+
+//task3
+// import 'dart:io';
+
+// void main() {
+//   print("Enter the value of x:");
+//   double x = double.parse(stdin.readLineSync()!);
+
+//   print("Enter the value of y:");
+//   double y = double.parse(stdin.readLineSync()!);
 
 //   double z = x * x * x - 2.5 * x * y + 1.78 * x * x - 2.5 * y + 1;
 
 //   print("The value of the function z = $z for x = $x and y = $y");
 // }
+
+
+// import 'dart:io';
+
+// void main() {
+//   print("Enter the value of a:");
+//   double a = double.parse(stdin.readLineSync()!);
+
+//   print("Enter the value of b:");
+//   double b = double.parse(stdin.readLineSync()!);
+
+//   double x = 3.56 * a + b * b * b - 5.8 * b * b + 3.8 * a - 1.5;
+
+//   print("The value of the function x = $x for a = $a and b = $b");
+// }
+
+//task4
+// void main() {
+//   double a = 7;
+//   double b = 3 * a.abs();
+//   double sinB = sin(b);
+//   double n = 2 * a + sinB;
+//   double div = 3.56;
+//   double x = sqrt(n / div);
+
+//   print(x);
+// }
+
+
 
 //task5
 // import 'dart:io';
@@ -183,17 +245,17 @@
 // }
 
 //bonus task4
-import 'dart:io';
+// import 'dart:io';
 
-void main() {
-  print("Enter the degree turned by the hour hand (0 ≤ y < 360):");
-  double y = double.parse(stdin.readLineSync()!);
+// void main() {
+//   print("Enter the degree turned by the hour hand (0 ≤ y < 360):");
+//   double y = double.parse(stdin.readLineSync()!);
 
-  int completeHours = (y ~/ 30).toInt();
+//   int completeHours = (y ~/ 30).toInt();
 
-  double remainingDegrees = y % 30;
-  int completeMinutes = (remainingDegrees * 2).toInt();
+//   double remainingDegrees = y % 30;
+//   int completeMinutes = (remainingDegrees * 2).toInt();
 
-  print("Number of complete hours: $completeHours");
-  print("Number of complete minutes: $completeMinutes");
-}
+//   print("Number of complete hours: $completeHours");
+//   print("Number of complete minutes: $completeMinutes");
+// }
